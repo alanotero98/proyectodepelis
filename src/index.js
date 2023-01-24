@@ -10,16 +10,9 @@ import "./App.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AppContextProvider>
-    <BrowserRouter>
-    <Routes>
-         <Route path='/' element={<Inicio />} />
-        {/*<Route path='/Favoritos' element={<Favoritos />} />
-        <Route path='/Busqueda' element={<Busqueda />} />
-        <Route path='*' element={<Error />} /> */}
-    
-    </Routes>
-    </BrowserRouter>
+    <BrowserRouter>    
     <App />
+    </BrowserRouter>
     </AppContextProvider>
 
     
