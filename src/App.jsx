@@ -4,8 +4,8 @@ import Axios from "axios";
 import { AppContext } from "./Store/AppContext";
 import Item from "./Components/Item";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { NavBar } from "./Components/NavBar";
-import Card from "./Components/card";
+import  NavBar  from "./Components/NavBar";
+import Card from "./Components/Card";
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <Card /> */}
+      {/* <Card />  */}
       {movies?.map(movie => <Item key={movie.id} movie={movie} />)}
       
 

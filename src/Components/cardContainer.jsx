@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import { AppContext } from '../Store/AppContext';
 
-const cardContainer = ({card}) => {
-  const navBar = useContext(AppContext);  
+const CardContainer = ({Card}) => {
+  const NavBar = useContext(AppContext);  
   
 
 
@@ -10,4 +10,4 @@ const cardContainer = ({card}) => {
     
 }
 
-export default cardContainer
+export default CardContainer

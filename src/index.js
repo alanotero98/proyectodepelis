@@ -4,7 +4,6 @@ import App from './App';
 import { AppContextProvider } from './Store/AppContext';
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Inicio from './Components/Routes/Inicio';
 import "./App.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
