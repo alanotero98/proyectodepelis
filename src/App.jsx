@@ -4,15 +4,17 @@ import Axios from "axios";
 import { AppContext } from "./Store/AppContext";
 import Item from "./Components/Item";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { navBar } from "react"
+import { NavBar } from "./Components/NavBar";
+import Card from "./Components/card";
 
 
 function App() {
- 
+  const movies = useContext(AppContext);
   return (
     <div className="App">
-      <navBar>  
-      
+      <NavBar />
+      {/* <Card /> */}
+      {movies?.map(movie => <Item key={movie.id} movie={movie} />)}
       
 
     </div>

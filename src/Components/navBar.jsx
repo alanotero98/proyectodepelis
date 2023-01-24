@@ -1,8 +1,8 @@
 import React from 'react'
 
-const navBar = () => {
+const NavBar = () => {
   return (
-    <div className="navBar"><nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <div className="NavBar"><nav className="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">
       <a className="navbar-brand" href="#">Movies</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,4 +20,4 @@ const navBar = () => {
   )
 }
 
-export default navBar
+export default NavBar
