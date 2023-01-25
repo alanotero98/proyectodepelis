@@ -1,1 +1,10 @@
-/* body {background-color: aqua;} */
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Card {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+}

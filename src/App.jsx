@@ -12,8 +12,23 @@ function App() {
   const movies = useContext(AppContext);
   return (
     <div className="App">
-      <NavBar />
-      {/* <Card />  */}
+      <NavBar />      
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <Card />
+          </div>
+          <div className="col">
+             <Card imgUrl="" 
+             titulo=""
+             texto=""/>
+          </div>
+          <div className="col">
+             <Card />
+          </div>          
+        </div>
+      </div>
+       
       {movies?.map(movie => <Item key={movie.id} movie={movie} />)}
       
 
