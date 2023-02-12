@@ -1,10 +1,8 @@
-
-import CardVer from '../CardVer'
 import Prueba from '../Prueba'
 
 import React from 'react'
 import { useState } from 'react';
-import {Button} from 'react-bootstrap';
+import {Modal, Button} from 'react-bootstrap';
 
 
 
