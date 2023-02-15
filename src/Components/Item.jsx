@@ -1,5 +1,6 @@
 import Prueba from "./Prueba"
-
+import Favoritos from "./Modaal"
+import Modaal from "./Modaal"
 
 const Item = (props) => {
   
@@ -25,6 +26,8 @@ const Item = (props) => {
               
               
               <button className="Boton2" >Agregar a favoritos</button>
+              <button className={Modaal}>ver mas...</button>
+              <Modaal />
               </div>
               </div>
             </div>

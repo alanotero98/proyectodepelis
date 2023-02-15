@@ -1,4 +1,4 @@
-import Prueba from '../Prueba'
+import Prueba from './Prueba'
 
 import React from 'react'
 import { useState } from 'react';
@@ -6,8 +6,8 @@ import {Modal, Button} from 'react-bootstrap';
 
 
 
-const Favoritos = () => {
-  const [show, setShow] = useState(false);
+const Modaal = () => {
+  const {show, setShow} = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -22,4 +22,4 @@ const Favoritos = () => {
   )
 }
 
-export default Favoritos
+export default Modaal
